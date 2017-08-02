@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tests de CORS en KPI </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script>
+            $(document).ready(() => 
+                $.getJSON("http://" + spagoService + "/KpisRest/v2/api/feeds/Cuenta%20de%20pruebas/drivers", data => 
+                    $("body select").html("<option>"+data.join("</option><option>")+"</option>")
+                )
+            );
+            $(document).ready(() => 
+                $.getJSON("http://" + spagoService + "/KpisRest/v2/api/kpi/Ahorro%20de%20combustible/Cuenta%20de%20pruebas/Grupo/ABC%20123/Pepito%20Perez?desde=2015-01-02&hasta=2017-01-02", data => 
+                    {
+                        $("#Cuenta").html(data.account);
+                        $("#Fecha").html(data.date);
+                        $("#Grupo").html(data.group);
+                        $("#Placa").html(data.plate);
+                        $("#Conductor").html(data.driver);
+                        $("#KPI").html(data.name);
+                        $("#Valor").html(data.value);
+                    }
+                )
+            );
+        </script>
+    </head>
+    <body>
+        <h2>Descripción de KPI</h2>
+        <div>
+            Listado de conductores:  <select></select>
+        </div>
+
+        
+        <div>
+            <p>Cuenta: <span id="Cuenta"></span></p>
+            <p>Fecha: <span id="Fecha"></span></p>
+            <p>Grupo: <span id="Grupo"></span></p>
+            <p>Placa: <span id="Placa"></span></p>
+            <p>Conductor: <span id="Conductor"></span></p>
+            <p>Nombre del KPI: <span id="KPI"></span></p>
+            <p>Valor: <span id="Valor"></span></p>
+        </div>
+        
+    </body>
+</html>

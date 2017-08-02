@@ -1,0 +1,229 @@
+{
+    "profileSettings": [
+        {
+            "section": "Managements",
+            "listButton": [
+                {
+                    "name": "CP",
+                    "subMenu": [
+                        {
+                            "idObject": "btnCp",
+                            "style": "disabled-menu",
+                            "menuActive": false
+                        },
+                        {
+                            "idObject": "btnNewCp",
+                            "style": "disabled-sub-menu",
+                            "menuActive": false
+                        },
+                        {
+                            "idObject": "btnFindCp",
+                            "style": "disabled-sub-menu",
+                            "menuActive": false
+                        },
+                        {
+                            "idObject": "ctnPanelIconCp",
+                            "style": "disabled-menu",
+                            "menuActive": false
+                        }
+                    ]
+                },
+                {
+                    "name": "CUENTAS",
+                    "subMenu": [
+                        {
+                            "idObject": "btnAccount",
+                            "style": "disabled-menu",
+                            "menuActive": false
+                        },
+                        {
+                            "idObject": "btnNewAccount",
+                            "style": "disabled-sub-menu",
+                            "menuActive": false
+                        },
+                        {
+                            "idObject": "btnCatalogAccount",
+                            "style": "disabled-sub-menu",
+                            "menuActive": false
+                        },
+                        {
+                            "idObject": "ctnPanelIconAccount",
+                            "style": "disabled-menu",
+                            "menuActive": false
+                        }
+                    ]
+                },
+                {
+                    "name": "VEHICULO",
+                    "subMenu": [
+                        {
+                            "idObject": "btnVehicle",
+                            "style": "disabled-menu",
+                            "menuActive": true
+                        },
+                        {
+                            "idObject": "btnNewVehicle",
+                            "style": "disabled-sub-menu",
+                            "menuActive": false
+                        },
+                        {
+                            "idObject": "btnCatalogVehicle",
+                            "style": "disabled-sub-menu",
+                            "menuActive": true
+                        },
+                        {
+                            "idObject": "ctnPanelIconVehicle",
+                            "style": "disabled-menu",
+                            "menuActive": false
+                        }
+                    ]
+                },
+                {
+                    "name": "EVENTOS",
+                    "subMenu": [
+                        {
+                            "idObject": "btnEvents",
+                            "style": "disabled-menu",
+                            "menuActive": true
+                        },
+                        {
+                            "idObject": "ctnPanelIconEvent",
+                            "style": "disabled-menu",
+                            "menuActive": true
+                        }
+                    ]
+                },
+                {
+                    "name": "GRUPOS",
+                    "subMenu": [
+                        {
+                            "idObject": "btnGroup",
+                            "style": "disabled-menu",
+                            "menuActive": true
+                        },
+                        {
+                            "idObject": "ctnPanelIconGroup",
+                            "style": "disabled-menu",
+                            "menuActive": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "Report",
+            "listButton": [
+                {
+                    "name": "ENCENDIDO APAGADO",
+                    "subMenu": [
+                        {
+                            "idObject": "btnInformOnOff",
+                            "style": "disabled-menu-left",
+                            "menuActive": false
+                        },
+                        {
+                            "idObject": "ctnInfOnOff",
+                            "style": "disabled-menu",
+                            "menuActive": false
+                        }
+                    ]
+                },
+                {
+                    "name": "DISTANCIA RECORRIDA",
+                    "subMenu": [
+                        {
+                            "idObject": "ctnButtonsInforms2",
+                            "style": "disabled-menu-left",
+                            "menuActive": false
+                        },
+                        {
+                            "idObject": "ctnInfDistance",
+                            "style": "disabled-menu",
+                            "menuActive": false
+                        }
+                    ]
+                },
+                {
+                    "name": "TIEMPOS DE REPORTES",
+                    "subMenu": [
+                        {
+                            "idObject": "ctnButtonsInforms3",
+                            "style": "disabled-menu-left",
+                            "menuActive": true
+                        },
+                        {
+                            "idObject": "ctnInfTime",
+                            "style": "disabled-menu",
+                            "menuActive": true
+                        }
+                    ]
+                },
+                {
+                    "name": "PAUSAS ACTIVAS",
+                    "subMenu": [
+                        {
+                            "idObject": "ctnButtonsInforms4",
+                            "style": "disabled-menu-left",
+                            "menuActive": false
+                        },
+                        {
+                            "idObject": "ctnInfPause",
+                            "style": "disabled-menu",
+                            "menuActive": false
+                        }
+                    ]
+                },
+                {
+                    "name": "ALARMAS EVENTOS",
+                    "subMenu": [
+                        {
+                            "idObject": "ctnButtonsInforms5",
+                            "style": "disabled-menu-left",
+                            "menuActive": false
+                        },
+                        {
+                            "idObject": "ctnInfAlarms",
+                            "style": "disabled-menu",
+                            "menuActive": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "BaseMap",
+            "listButton": [
+                {
+                    "name": "TAB VEHICULOS",
+                    "subMenu": [
+                        {
+                            "idObject": "idItemBaseVehicle",
+                            "style": "disabled-menu-bottom",
+                            "menuActive": true
+                        }
+                    ]
+                },
+                {
+                    "name": "TAB PUNTOS DE INTERES",
+                    "subMenu": [
+                        {
+                            "idObject": "idItemPointsOfInterest",
+                            "style": "disabled-menu-bottom",
+                            "menuActive": false
+                        }
+                    ]
+        },
+        {
+                    "name": "TAB APAGADO REMOTO",
+                    "subMenu": [
+                        {
+                            "idObject": "idPanelTurnOnOff",
+                            "style": "disabled-menu-bottom",
+                            "menuActive": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}   

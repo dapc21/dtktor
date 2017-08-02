@@ -1,0 +1,21 @@
+{
+  "name": "vehiculos",
+  "description": "Módulo Eboras-Vehículos",
+  "main": "index.html",
+  "authors": [
+    "Invytec"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Eboras",
+    "Vehiculos"
+  ],
+  "homepage": "http://reports.invytec.com/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "vehiculos",
+  "version": "1.0.0",
+  "description": "Módulo Eboras-Vehículos",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "Eboras",
+    "Vehiculos"
+  ],
+  "author": "Invytec",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "mocha": "^3.2.0",
+    "mocha-bamboo-reporter": "^1.1.1",
+    "selenium-webdriver": "^3.0.1"
+  }
+}
